@@ -39,6 +39,6 @@ const CreatureSchema = new Schema<CreatureStructure>({
   },
 });
 
-const Creature = mongoose.model("Creature", CreatureSchema, "Creatures");
+const Creature = mongoose.model("creature", CreatureSchema, "creatures");
 
 export default Creature;
