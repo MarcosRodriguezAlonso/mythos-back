@@ -7,5 +7,5 @@ export const app = express();
 const port = process.env.PORT ?? 8080;
 
 app.listen(port, () => {
-  console.log(`Listening on ${chalk.green(`http://localhost:${port}`)}`);
+  console.log(`Listening on ${chalk.blue(`http://localhost:${port}`)}`);
 });
