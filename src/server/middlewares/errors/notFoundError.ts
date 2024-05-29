@@ -1,5 +1,5 @@
 import type { Response, Request, NextFunction } from "express";
-import ServerError from "./ServerError.js";
+import ServerError from "./ServerError/ServerError.js";
 
 const notFoundError = (
   _req: Request,
