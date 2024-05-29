@@ -3,7 +3,7 @@ import connectDataBase from "./database/index.js";
 import { app } from "./server/app.js";
 import "dotenv/config.js";
 
-const port = process.env.PORT ?? 8080;
+const port = process.env.PORT ?? 6060;
 const dataBaseUrl = process.env.MONGODB_URL!;
 
 await connectDataBase(dataBaseUrl);
