@@ -1,7 +1,7 @@
 import mongoose, { Schema } from "mongoose";
-import type CreatureStructure from "../types";
+import type Creature from "../types";
 
-const CreatureSchema = new Schema<CreatureStructure>({
+const CreatureSchema = new Schema<Creature>({
   name: {
     type: String,
     required: true,
@@ -34,6 +34,6 @@ const CreatureSchema = new Schema<CreatureStructure>({
   },
 });
 
-const Creature = mongoose.model("Creature", CreatureSchema, "Creatures");
+const CreatureModel = mongoose.model("Creature", CreatureSchema, "Creatures");
 
-export default Creature;
+export default CreatureModel;

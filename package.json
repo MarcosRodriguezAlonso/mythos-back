@@ -9,8 +9,9 @@
     "start": "node .",
     "start:dev": "node --watch .",
     "prepare": "husky",
+    "test": "jest",
     "test:dev": "jest --watch",
-    "test": "jest"
+    "test:coverage": "jest --coverage"
   },
   "keywords": [],
   "author": "",

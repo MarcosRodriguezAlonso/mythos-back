@@ -1,4 +1,4 @@
-interface CreatureStructure {
+interface Creature {
   _id: string;
   name: string;
   author: string;
@@ -9,4 +9,4 @@ interface CreatureStructure {
   description: string;
 }
 
-export default CreatureStructure;
+export default Creature;
