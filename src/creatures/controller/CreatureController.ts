@@ -1,4 +1,4 @@
-import ServerError from "../../server/middlewares/errors/ServerError/ServerError";
+import ServerError from "../../server/middlewares/errors/ServerError/ServerError.js";
 import type CreaturesRepository from "../repository/types";
 import type CreaturesControllerStructure from "./types";
 import { type Request, type Response, type NextFunction } from "express";
