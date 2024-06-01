@@ -1,6 +1,6 @@
 import type Creature from "../types";
 
-const mockCreatures: Creature[] = [
+const creaturesMock: Creature[] = [
   {
     _id: "1",
     name: "Ktulu",
@@ -23,4 +23,4 @@ const mockCreatures: Creature[] = [
   },
 ];
 
-export default mockCreatures;
+export default creaturesMock;
