@@ -30,6 +30,7 @@ const config = {
     "!src/**/repository/*.ts",
     "!src/**/router/*.ts",
     "!src/database/*.ts",
+    "!src/**/mocks/*.ts",
   ],
 
   // The directory where Jest should output its coverage files
