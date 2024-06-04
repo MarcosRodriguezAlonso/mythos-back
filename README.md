@@ -8,8 +8,9 @@ Descripción
 
 Response
 
-- 200 OK: Si todo funcionacorrectamente se emite una response con un objeto con una propiedad creatures que apunta al array de criaturas.
+- 200 OK: Si todo funciona correctamente se emite una response con un objeto con una propiedad creatures que apunta al array de criaturas.
 
+```
   {
   "creatures": [
   {
@@ -54,9 +55,12 @@ Response
   }
   ]
   }
+```
 
 - 404 Not found: Se responderá así si el path es incorrecto.
 
+```
   {
   "error": "Not found"
   }
+```
