@@ -1,9 +1,9 @@
-import express from "express";
 import morgan from "morgan";
+import express from "express";
+import chalk from "chalk";
 import notFoundError from "./middlewares/errors/notFoundError.js";
 import generalError from "./middlewares/errors/generalError.js";
 import creaturesRouter from "../creatures/creaturesRouter.js";
-import chalk from "chalk";
 
 const app = express();
 
