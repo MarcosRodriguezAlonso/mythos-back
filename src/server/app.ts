@@ -11,7 +11,7 @@ export const startServer = () => {
   const port = process.env.PORT ?? 6060;
 
   app.listen(port, () => {
-    console.log(`Escuchando en ${chalk.blue(`http://localhost:${port}`)}`);
+    console.log("Listening on " + chalk.blue("http://localhost:" + port));
   });
 };
 
